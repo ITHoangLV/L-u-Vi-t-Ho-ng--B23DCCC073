@@ -1,0 +1,67 @@
+.alo1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(26, 109, 26);
+  }
+  
+  .alo1 span {
+    flex: 1;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-size: 20x;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+  }
+  .fd2 {
+    flex: 1;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+  }
+  .container {
+    max-width: 100%;
+    margin: auto;
+  }
+  .cc {
+    flex: 1;
+    font-family: "Arial", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+  }
+  .cc2 {
+    flex: 1;
+    font-family: "Arial", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+  }
+  .cc3 {
+    flex: 1;
+    font-family: "Arial", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .con1 {
+    font-size: 20px;
+    display: inline-block;
+  }

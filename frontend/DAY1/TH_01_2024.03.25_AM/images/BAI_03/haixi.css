@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+.san-pham {
+    flex: 0 0 calc(16.666% - 20px);
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.san-pham img {
+    width: 100%;
+    height: auto;
+}
+
+
+.ten-san-pham {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #05baf1;
+}
+
+
+.gia-san-pham {
+    font-size: 14px;
+    margin-top: 5px;
+    color:rgb(231, 10, 39);
+}
+
+
+.san-pham:hover {
+    border-color: #00ff62d2;
+}
+
+.ten-san-pham:hover, .gia-san-pham:hover {
+    color: #ffc400;
+}
